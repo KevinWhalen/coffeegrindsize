@@ -1,9 +1,38 @@
 import os
 import time
 import sys
+import webbrowser
 
-from tkinter import *
 from tkinter import filedialog
+from tkinter import Frame
+from tkinter import Tk
+from tkinter import Label
+from tkinter import StringVar
+from tkinter import Entry
+from tkinter import OptionMenu
+from tkinter import IntVar
+from tkinter import Button
+from tkinter import Checkbutton
+from tkinter import Canvas
+from tkinter import Menu
+
+# TODO: replace imports of enumerated constants with use of "cst".
+import tkinter as cst
+from tkinter import BOTTOM
+from tkinter import CENTER
+from tkinter import DISABLED
+from tkinter import E
+from tkinter import EW
+from tkinter import N
+from tkinter import LEFT
+from tkinter import RIGHT
+from tkinter import SUNKEN
+from tkinter import TOP
+from tkinter import W
+from tkinter import X
+from tkinter import Y
+
+import matplotlib
 from matplotlib import pyplot as plt
 from matplotlib import image as mpimg
 from matplotlib import ticker as mticker
@@ -14,7 +43,6 @@ import pandas as pd
 import pdb
 from PIL import Image
 from PIL import ImageTk
-import webbrowser
 
 
 matplotlib.use("TkAgg")
