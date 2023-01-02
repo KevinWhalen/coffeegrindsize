@@ -7,10 +7,10 @@ Thanks a lot Chris !
 
 ---
 
-Tested on Fedora 34 (though current is 37) with system packages:
+Tested on Fedora 37 with system packages:
 
-* python3-tkinter-3.9.13-1.fc34.x86_64
-* tk-1:8.6.10-6.fc34.x86_64
+* python3-tkinter-3.11.1-1.fc37.x86_64
+* tk-1:8.6.12-3.fc37.x86_64
 
 Python Dependencies:
 
